@@ -1,7 +1,8 @@
-*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
+/* *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
+*/
 body {
   padding-top: 70px; 
-  margin: 10;/* Adjust this value based on the height of your navbar */
+  text-indent: 10;/* Adjust this value based on the height of your navbar */
   }
 body{background:linear-gradient(#36313f,#24ae,rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9),rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9));line-height:1.5;font-family:sans-serif;;font-size:16px;color:#fff}
 ::-webkit-scrollbar {
@@ -45,7 +46,7 @@ hr {
 #header{background:radial-gradient(#36313f,#24ae,rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9));width:100%;position:relative;opacity: 100;}
 #header:after{content:"";clear:both;display:block}
 #hero {
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("C:\Users\ADMIN\Desktop\Pranjal Prakarsh\High-Resolution Backgrounds\Academia-modified.png") center center no-repeat;
+  background: linear-gradient(45deg, #563afae6 0%, #740fd6e6 100%), url("C:\Users\ADMIN\Desktop\Pranjal Prakarsh\High-Resolution Backgrounds\Academia-modified.png") center center no-repeat;
   background-size: cover;
   margin:5 5 5;
   padding-bottom: 20;
@@ -66,7 +67,6 @@ hr {
 }
 h4 {margin:10}
 h2 {  margin: 10px ;
-  font-size: 28px;
   line-height: 36px;}
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -86,22 +86,20 @@ h2 {  margin: 10px ;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.15);
+  background: #ffffff26;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover, #hero .btn-watch-video:hover {
   background: #fff;
-  color: rgba(86, 58, 250, 0.9);
+  color: #563afae6;
   transition: 0.3s;
 }
 
 
 
 @media (max-width: 991px) {
-  #hero {
-    height: 65vh;
-  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -117,10 +115,12 @@ h2 {  margin: 10px ;
   }
 }
 .footer {
-  background: linear-gradient(#3ef#36313f,#24ae,#21e1ae);
+  background: linear-gradient(to right,#740fd6e6,rgba(51, 95, 228, 0.933),#5846f9,#7252ef,#563afae6);
   background-size: 600% 600%;
+  border-radius: 2px;
+  margin: 0;
   animation: gradient 10s ease infinite;
-  padding: 50px 0;
+  padding: 50px;
   }
   
   @keyframes gradient {
@@ -157,7 +157,6 @@ h2 {  margin: 10px ;
     list-style: none;
     transition: 0.3s;
     position: relative;
-    
     padding-bottom: 10;
     padding-top: 10;
     padding-left: 10;

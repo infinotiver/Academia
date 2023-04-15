@@ -2,6 +2,65 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <script src="java.js"></script>
+        <script>
+        $(window).on("scroll", function() {
+            if($(window).scrollTop() > 50) {
+              $(".navbar").addClass("scrolled");
+            } else {
+              $(".navbar").removeClass("scrolled");
+            }
+          });
+          
+           /**
+             * Mobile nav toggle
+             */
+           on('click', '.mobile-nav-toggle', function(e) {
+            select('#navbar').classList.toggle('navbar-mobile')
+            this.classList.toggle('bi-list')
+            this.classList.toggle('bi-x')
+          })
+          
+          /**
+           * Mobile nav dropdowns activate
+           */
+          on('click', '.navbar .dropdown > a', function(e) {
+            if (select('#navbar').classList.contains('navbar-mobile')) {
+              e.preventDefault()
+              this.nextElementSibling.classList.toggle('dropdown-active')
+            }
+          }, true)
+          
+          /**
+           * Scrool with ofset on links with a class name .scrollto
+           */
+          on('click', '.scrollto', function(e) {
+            if (select(this.hash)) {
+              e.preventDefault()
+          
+              let navbar = select('#navbar')
+              if (navbar.classList.contains('navbar-mobile')) {
+                navbar.classList.remove('navbar-mobile')
+                let navbarToggle = select('.mobile-nav-toggle')
+                navbarToggle.classList.toggle('bi-list')
+                navbarToggle.classList.toggle('bi-x')
+              }
+              scrollto(this.hash)
+            }
+          }, true)
+          
+          /**
+           * Scroll with ofset on page load with hash links in the url
+           */
+          window.addEventListener('load', () => {
+            if (window.location.hash) {
+              if (select(window.location.hash)) {
+                scrollto(window.location.hash)
+              }
+            }
+          });
+          
+          
+          </script>
         <script src="js/jquery.min.js"></script>
     </head>
     <body>
@@ -46,7 +105,7 @@
             
             // Initialize the text rotation
             var i = 0;
-            var j = 0;
+            var j = 0222;
             var rotateInterval = setInterval(function() {
               rotateText.innerHTML = rotateArray[i].substring(0, j++);
               if (j > rotateArray[i].length) {
@@ -85,7 +144,7 @@
         </section>
         <p>Academia is more than just a platform for learning. It’s a community that fosters growth, creativity, and collaboration. With a wide variety of topics and channels, students can connect with each other on a deeper level, from discussing academic subjects to sharing their hobbies and interests. Academia is a place where students can come together to support and inspire each other, building a strong sense of camaraderie that extends far beyond the classroom. Our vision is to create an inclusive and supportive environment for students to thrive and achieve their full potential. With a team of dedicated moderators and administrators, we strive to maintain a safe and respectful space where everyone can feel comfortable sharing their thoughts and ideas. Join us at Academia, where education meets community.</p><br><hr ><br><p>  
 Our website will house all the elements , including the interactive learning environment, study groups, and a forum for student discussion. But we won’t stop there. We’ll also provide blogs that cover topics often overlooked by other education websites, such as money management, coding, and study techniques. With our extensive library of notes, test papers, and educational materials, we’ll help students learn more efficiently and effectively. And we won’t forget the importance of innovation – our think tank will constantly explore new ideas to ensure that students are prepared for the future. At Academia, we believe that education is more than just getting good grades; it’s about preparing for a successful and fulfilling life. At Academia, education meets community. Our platform offers a wide variety of channels for students to connect and collaborate, from discussing academic subjects to sharing hobbies and interests. Our goal is to create an inclusive and supportive environment where students can thrive and achieve their full potential. Our website houses interactive learning tools, study groups, and a forum for student discussion. We go beyond the basics with blogs covering topics such as money management, coding, and study techniques. Our extensive library of notes, test papers, and educational materials helps students learn more efficiently and effectively. And with our think tank constantly exploring new ideas, we prepare students for the future. At Academia, we believe education is more than good grades; it’s about preparing for a successful and fulfilling life.</p>  
-        <section class="d-flex align-items-center">
+        <div class="footer">
         <div class="team-section">
             <h2>Our Team</h2>
             <ul class="team-dropdown">
@@ -97,22 +156,8 @@ Our website will house all the elements , including the interactive learning env
                         <li>Bob Johnson - CTO</li>
                     </ul>
                 </li>
-                <li>
-                  Tech 
-                  <ul class="admin-content">
-                      <li>John Doe - CEO</li>
-                      <li>Jane Smith - CFO</li>
-                      <li>Bob Johnson - CTO</li>
-                  </ul>
-              </li>
-                <li>
-                    Community Moderators 
-                    <ul class="admin-content">
-                        <li>John Doe - CEO</li>
-                        <li>Jane Smith - CFO</li>
-                        <li>Bob Johnson - CTO</li>
-                    </ul>
-                </li>
+                
+                
                 <li>
                     Magazine Team 
                     <ul class="magazine-content">
@@ -131,7 +176,7 @@ Our website will house all the elements , including the interactive learning env
                 </li>
      
             </ul>
-        </div></section>
-        <footer class="footer"> HEY </footer>
+        </div><h2 align=center>Developed with ❤ by <b><u>Pranjal Prakarsh</b></u><i>  for</i> Academia</h2></section></div>
+        
     </body>
 </html>
