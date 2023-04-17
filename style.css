@@ -1,5 +1,27 @@
 /* *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
 */
+.lbuttom:focus {
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: lin;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid #fff;
+  color:#fff;
+  background:linear-gradient(to right, #2c2b71,#7252ef);
+
+}
+.lbuttom:focus:hover {
+  color: rgba(86, 58, 250, 0.9);
+  border-color:  2px solid #2c2b71;
+  background: #fff
+}
+.lbuttom:before {
+  visibility: hidden;
+}
+
 body {
   padding-top: 70px; 
   text-indent: 10;/* Adjust this value based on the height of your navbar */
