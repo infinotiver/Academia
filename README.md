@@ -3,15 +3,11 @@
 
 
 <ul align=center><a href=#about>About </a>  ● <a href=#story>Story </a> ●<a href=#blog> Blog </a>  ● <a href="https://discord.gg/">Community </a> ● <a href=#socials> Connect </a>  ● <a href="https://openacademia.me">Website </a> </ul>
-<style>
-    img {
-        border-radius:10px;
-        filter: blur(10px);
-    }
 
-</style>
+
 <img src="img\demo.png" alt="A short blurred website demo of Academia">
 Revealing Soon...
+
 ___
 <br>
 
