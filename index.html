@@ -1,82 +1,164 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="java.js"></script>
-        <title>Academia </title>
-        <script>
-        $(window).on("scroll", function() {
-            if($(window).scrollTop() > 50) {
-              $(".navbar").addClass("scrolled");
-            } else {
-              $(".navbar").removeClass("scrolled");
-            }
-          });
-          
-           /**
-             * Mobile nav toggle
-             */
-           on('click', '.mobile-nav-toggle', function(e) {
-            select('#navbar').classList.toggle('navbar-mobile')
-            this.classList.toggle('bi-list')
-            this.classList.toggle('bi-x')
-          })
-          
-          /**
-           * Mobile nav dropdowns activate
-           */
-          on('click', '.navbar .dropdown > a', function(e) {
-            if (select('#navbar').classList.contains('navbar-mobile')) {
-              e.preventDefault()
-              this.nextElementSibling.classList.toggle('dropdown-active')
-            }
-          }, true)
-          
-          /**
-           * Scrool with ofset on links with a class name .scrollto
-           */
-          on('click', '.scrollto', function(e) {
-            if (select(this.hash)) {
-              e.preventDefault()
-          
-              let navbar = select('#navbar')
-              if (navbar.classList.contains('navbar-mobile')) {
-                navbar.classList.remove('navbar-mobile')
-                let navbarToggle = select('.mobile-nav-toggle')
-                navbarToggle.classList.toggle('bi-list')
-                navbarToggle.classList.toggle('bi-x')
-              }
-              scrollto(this.hash)
-            }
-          }, true)
-          
-          /**
-           * Scroll with ofset on page load with hash links in the url
-           */
-          window.addEventListener('load', () => {
-            if (window.location.hash) {
-              if (select(window.location.hash)) {
-                scrollto(window.location.hash)
-              }
-            }
-          });
-          
-          
-          </script>
-        <script src="js/jquery.min.js"></script>
-        <meta content="" name="description">
-        <meta content="" name="keywords">
-      
-        <!-- Favicons -->
-        <link href="C:\Users\ADMIN\Desktop\Pranjal Prakarsh\High-Resolution Backgrounds\Academia-modified.png" rel="icon">
-        <link href="C:\Users\ADMIN\Desktop\Pranjal Prakarsh\High-Resolution Backgrounds\Academia-modified.png" rel="apple-touch-icon">
-    </head>
-    <body>
-        <nav id="navbar" class="navbar">
-            <ul>
-                <div class="logo">
-                    <a href="#"><img src="C:\Users\ADMIN\Desktop\Pranjal Prakarsh\High-Resolution Backgrounds\Academia-modified.png" width=10% height=100%><span> Academia</span></a>
+
+<head>    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Academia | Home</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="Academia-modified.png" rel="icon">
+    <link href="Academia-modified.png" rel="apple-touch-icon">
+
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <ul>
+            <div class="logo">
+                <a href=""><img src="Academia-modified.png" width=10% height=100%><span> Academia</span></a>
+            </div>
+            <li class="menu-active"><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#blog">Social</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="#donate">Donate</a></li>
+            <li><a class="getstarted scrollto" href="https://discord.com/api/oauth2/authorize?client_id=916630347746250782&permissions=8&scope=bot&applications.commands">Join the Community</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <div id="notification">
+     Check out new editions of newsletters
+      <span class="close-button" onclick="hideNotification()">x</span>
+    </div>
+    
+    <script>
+      function showNotification() {
+        var notification = document.getElementById("notification");
+        notification.style.display = "block";
+        
+      }
+  
+      function hideNotification() {
+        var notification = document.getElementById("notification");
+        notification.style.display = "none";
+      }
+  
+      setInterval(showNotification, 3000);
+    </script>
+    <!-- .navbar -->
+    <section id="home" class="hero">
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-md-6 pt-3 pt-lg-0 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h1 align="center" class="theme_text">ACADEMIA</h1>
+                    <h2 align="center">This is a <span class="txt-rotate" data-period="200" data-rotate='["Student Community" , "Study Buddy" , "Homework Helper" , "Your Study Partener" , "Your Guide"]'></span></h2>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            var elements = document.getElementsByClassName("txt-rotate");
+                            for (var i = 0; i < elements.length; i++) {
+                                var toRotate = JSON.parse(elements[i].getAttribute("data-rotate"));
+                                var period = elements[i].getAttribute("data-period");
+                                if (toRotate) {
+                                    new TxtRotate(elements[i], toRotate, period);
+                                }
+                            }
+                        });
+                    
+                        var TxtRotate = function (el, toRotate, period) {
+                            this.toRotate = toRotate;
+                            this.el = el;
+                            this.loopNum = 0;
+                            this.period = parseInt(period, 10) || 2000;
+                            this.tick();
+                            this.isDeleting = false;
+                        };
+                    
+                        TxtRotate.prototype.tick = function () {
+                            var i = this.loopNum % this.toRotate.length;
+                            var fullTxt = this.toRotate[i];
+                    
+                            this.el.innerHTML = this.isDeleting ? fullTxt.substring(0, this.txt.length - 1) : fullTxt;
+                    
+                            var that = this;
+                            var delta = 200 - Math.random() * 100;
+                    
+                            if (this.isDeleting) {
+                                delta /= 2;
+                            }
+                    
+                            if (!this.isDeleting && this.el.innerHTML === fullTxt) {
+                                delta = this.period;
+                                this.isDeleting = true;
+                            } else if (this.isDeleting && this.el.innerHTML === "") {
+                                this.isDeleting = false;
+                                this.loopNum++;
+                                delta = 500;
+                            }
+                    
+                            setTimeout(function () {
+                                that.tick();
+                            }, delta);
+                        };
+                    </script>
+                    <h3 align="center">Empowering the mind , transforming the world </h3>
+                    
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="hero">
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-md-6 pt-3 pt-lg-0 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h2> About Academia</h2>
+                    <h4>
+                        <p>At Academia, education meets community. Our platform offers a wide variety of channels for students to connect and collaborate, from discussing academic subjects to sharing hobbies and interests. Our goal is to create an inclusive and supportive environment where students can thrive and achieve their full potential. Our website houses interactive learning tools, study groups, and a forum for student discussion. We go beyond the basics with blogs covering topics such as money management, coding, and study techniques. Our extensive library of notes, test papers, and educational materials helps students learn more efficiently and effectively. And with our think tank constantly exploring new ideas, we prepare students for the future. At Academia, we believe education is more than good grades; it’s about preparing for a successful and fulfilling life.</p>
+                        <br>
+                        <hr>At Academia, education meets community. Our platform offers a wide variety of channels for students to connect and collaborate, from discussing academic subjects to sharing hobbies and interests. Our goal is to create an inclusive and supportive environment where students can thrive and achieve their full potential. Our website houses interactive learning tools, study groups, and a forum for student discussion. We go beyond the basics with blogs covering topics such as money management, coding, and study techniques. Our extensive library of notes, test papers, and educational materials helps students learn more efficiently and effectively. And with our think tank constantly exploring new ideas, we prepare students for the future. At Academia, we believe education is more than good grades; it’s about preparing for a successful and fulfilling life.
+
+                        <br>
+                        <hr>
+                        Academia is more than just a platform for learning. It’s a community that fosters growth, creativity, and collaboration. With a wide variety of topics and channels, students can connect with each other on a deeper level, from discussing academic subjects to sharing their hobbies and interests. Academia is a place where students can come together to support and inspire each other, building a strong sense of camaraderie that extends far beyond the classroom. Our vision is to create an inclusive and supportive environment for students to thrive and achieve their full potential. With a team of dedicated moderators and administrators, we strive to maintain a safe and respectful space where everyone can feel comfortable sharing their thoughts and ideas. Join us at Academia, where education meets community.
+                        Our website will house all the elements , including the interactive learning environment, study groups, and a forum for student discussion. But we won’t stop there. We’ll also provide blogs that cover topics often overlooked by other education websites, such as money management, coding, and study techniques. With our extensive library of notes, test papers, and educational materials, we’ll help students learn more efficiently and effectively. And we won’t forget the importance of innovation – our think tank will constantly explore new ideas to ensure that students are prepared for the future. At Academia, we believe that education is more than just getting good grades; it’s about preparing for a successful and fulfilling life.
+                    </h4>
                 </div>
-                <li class="menu-active"><a href="#hero">Home</a></li>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="hero">
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-md-6 pt-3 pt-lg-0 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h1>Services</h1>
+                    <H3>What we offer </H3>
+                    <div class="d-flex justify-content-center justify-content-lg-start mt-4">
+                        <a href="#" class="btn-get-started scrollto me-3">Community</a>
+                        <a href="#" class="btn-get-started scrollto me-3">Study Help</a>
+                        <a href="#" class="btn-get-started scrollto me-3">Homework Help</a>
+                        <a href="#" class="btn-get-started scrollto me-3">Webinars</a>
+                        <a href="#" class="btn-get-started scrollto me-3">Expert Blogs</a>
+                        <a href="#" class="btn-get-started scrollto me-3">Tips & Guidance</a>
+                        <a href="#" class="btn-get-started scrollto me-3">Video Tutorials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p>Academia is more than just a platform for learning. It’s a community that fosters growth, creativity, and collaboration. With a wide variety of topics and channels, students can connect with each other on a deeper level, from discussing academic subjects to sharing their hobbies and interests. Academia is a place where students can come together to support and inspire each other, building a strong sense of camaraderie that extends far beyond the classroom. Our vision is to create an inclusive and supportive environment for students to thrive and achieve their full potential. With a team of dedicated moderators and administrators, we strive to maintain a safe and respectful space where everyone can feel comfortable sharing their thoughts and ideas. Join us at Academia, where education meets community.</p><br>
+    <hr>
+
+    <footer>
+
+        <div class="footer">
+            <h1 align="left">Academia</h1>
+            <ul align="centre"><strong>Important Links</strong>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Our Story</a></li>
                 <li><a href="#team">Team</a></li>
@@ -84,160 +166,16 @@
                 <li><a href="#blog">Social</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a class="nav-link scrollto" href="#donate">Donate</a></li>
-                <li><a class="getstarted scrollto" href="https://discord.com/api/oauth2/authorize?client_id=916630347746250782&permissions=8&scope=bot&applications.commands">Join the Community</a></li>
+
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-        <section id="hero" class="d-flex align-items-center">
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 pt-3 pt-lg-0 order-2 order-md-1 d-flex flex-column justify-content-center">
-                        <h1>ACADEMIA</h1>
-                        <h2>This is a <span class="txt-rotate" data-period="200" data-rotate='["Student Community" , "Study Buddy" , "Homework Helper" , "Your Study Partener" , "Your Guide"]'></span></h2>
-                        <H3>Empowering the mind , transforming the world </H3>
-                        <div class="d-flex justify-content-center justify-content-lg-start mt-4">
-                            <a href="#" class="btn-get-started scrollto me-3">Learn More</a>
-                            <a href="#" class="btn-watch-video scrollto">Join the Community</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <script>var TxtRotate = function(el, toRotate, period) {
-          this.toRotate = toRotate;
-          this.el = el;
-          this.loopNum = 0;
-          this.period = parseInt(period, 10) || 20;
-          this.txt = '';
-          this.tick();
-          this.isDeleting = false;
-        };
-        
-        TxtRotate.prototype.tick = function() {
-          var i = this.loopNum % this.toRotate.length;
-          var fullTxt = this.toRotate[i];
-        
-          if (this.isDeleting) {
-            this.txt = fullTxt.substring(0, this.txt.length - 1);
-          } else {
-            this.txt = fullTxt.substring(0, this.txt.length + 1);
-          }
-        
-          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-        
-          var that = this;
-          var delta = 300 - Math.random() * 100;
-        
-          if (this.isDeleting) { delta /= 2; }
-        
-          if (!this.isDeleting && this.txt === fullTxt) {
-            delta = this.period;
-            this.isDeleting = true;
-          } else if (this.isDeleting && this.txt === '') {
-            this.isDeleting = false;
-            this.loopNum++;
-            delta = 500;
-          }
-        
-          setTimeout(function() {
-            that.tick();
-          }, delta);
-        };
-        
-        window.onload = function() {
-          var elements = document.getElementsByClassName('txt-rotate');
-          for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-rotate');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtRotate(elements[i], JSON.parse(toRotate), period);
-            }
-          }
-          // INJECT CSS
-          var css = document.createElement("style");
-          css.type = "text/css";
-          css.innerHTML = ".txt-rotate > .wrap { border-right: 0.01em solid #740fd6e6 }";
-          document.body.appendChild(css);
-        };</script>
 
-        <section id="about">
-            <h2> About Academia</h2>
-            <h4>
-                <p >At Academia, education meets community. Our platform offers a wide variety of channels for students to connect and collaborate, from discussing academic subjects to sharing hobbies and interests. Our goal is to create an inclusive and supportive environment where students can thrive and achieve their full potential. Our website houses interactive learning tools, study groups, and a forum for student discussion. We go beyond the basics with blogs covering topics such as money management, coding, and study techniques. Our extensive library of notes, test papers, and educational materials helps students learn more efficiently and effectively. And with our think tank constantly exploring new ideas, we prepare students for the future. At Academia, we believe education is more than good grades; it’s about preparing for a successful and fulfilling life.</p>
-            </h4>
-        </section>
-        <section id="hero" class="d-flex align-items-center">
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 pt-3 pt-lg-0 order-2 order-md-1 d-flex flex-column justify-content-center">
-                        <h1>Services</h1>
-                        <H3>What we offer </H3>
-                        <div class="d-flex justify-content-center justify-content-lg-start mt-4">
-                            <a href="#" class="btn-get-started scrollto me-3">Community</a>
-                            <a href="#" class="btn-watch-video scrollto">Study Help</a>
-                            <a href="#" class="btn-watch-video scrollto">Homework Help</a>
-                            <a href="#" class="btn-watch-video scrollto">Webinars</a>
-                            <a href="#" class="btn-watch-video scrollto">Expert Blogs</a>
-                            <a href="#" class="btn-watch-video scrollto">Tips & Guidance</a>
-                            <a href="#" class="btn-watch-video scrollto">Video Tutorials</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <p>Academia is more than just a platform for learning. It’s a community that fosters growth, creativity, and collaboration. With a wide variety of topics and channels, students can connect with each other on a deeper level, from discussing academic subjects to sharing their hobbies and interests. Academia is a place where students can come together to support and inspire each other, building a strong sense of camaraderie that extends far beyond the classroom. Our vision is to create an inclusive and supportive environment for students to thrive and achieve their full potential. With a team of dedicated moderators and administrators, we strive to maintain a safe and respectful space where everyone can feel comfortable sharing their thoughts and ideas. Join us at Academia, where education meets community.</p><br><hr ><br><p>  
-        Our website will house all the elements , including the interactive learning environment, study groups, and a forum for student discussion. But we won’t stop there. We’ll also provide blogs that cover topics often overlooked by other education websites, such as money management, coding, and study techniques. With our extensive library of notes, test papers, and educational materials, we’ll help students learn more efficiently and effectively. And we won’t forget the importance of innovation – our think tank will constantly explore new ideas to ensure that students are prepared for the future. At Academia, we believe that education is more than just getting good grades; it’s about preparing for a successful and fulfilling life. At Academia, education meets community. Our platform offers a wide variety of channels for students to connect and collaborate, from discussing academic subjects to sharing hobbies and interests. Our goal is to create an inclusive and supportive environment where students can thrive and achieve their full potential. Our website houses interactive learning tools, study groups, and a forum for student discussion. We go beyond the basics with blogs covering topics such as money management, coding, and study techniques. Our extensive library of notes, test papers, and educational materials helps students learn more efficiently and effectively. And with our think tank constantly exploring new ideas, we prepare students for the future. At Academia, we believe education is more than good grades; it’s about preparing for a successful and fulfilling life.</p>  
-<div class="team-section">
-  <h2>Our Team</h2>
-  <ul class="team-dropdown">
-      <li>
-          Core 
-          <ul class="admin-content">
-              <li>CEO - Pranjal Prakarsh</li>
-              
-          </ul>
-      </li>
-      
-      
-      <li>
-          Magazine Team 
-          <ul class="magazine-content">
-              <li>Pranjal Prakarsh - Editor-in-Chief</li>
-              
-          </ul>
-      </li>
-      <li>
-          Social Enagement
-          <ul class="social-content">
-              
-              <li>None</li>
-          </ul>
-      </li>
+            <h2 align="center">Created with <span style="color: #ff6969;">❤</span> by <strong><u>Pranjal Prakarsh</u></strong> for Academia.</h2>
+            <p align="center" style="font-size: 14px; color: #fff;">"I'm not procrastinating, I'm just prioritizing my distractions."</p>
+            <hr size="1px">
+        </div>
+    </footer>
+    <script src="java.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
 
-  </ul>
-</div>
-
-<footer>
-  
-  <div class="footer">
-    <h1 align="left">Academia</h1> 
-    <ul align="centre"><strong>Important Links</strong>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Our Story</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#blog">Social</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a class="nav-link scrollto" href="#donate">Donate</a></li>
-      
-    </ul>
-    
-    <h2 align="center">Created with <span style="color: #ff6969;">❤</span> by <strong><u>Pranjal Prakarsh</u></strong> for Academia.</h2>
-    <p align="center" style="font-size: 14px; color: #fff;">"I'm not procrastinating, I'm just prioritizing my distractions."</p>
-    <hr size="1px">
-  </div>
-</footer>
-        
-    </body>
 </html>
