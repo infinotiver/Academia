@@ -29,43 +29,54 @@
     background: radial-gradient(#36313f, #24ae, rgba(31, 17, 112, 0.9) 0%, rgba(48, 4, 92, 0.9), rgba(27, 18, 78, 0.9) 0%, rgba(36, 11, 61, 0.9));
   }
   
-  /* Notification styling */
-  #notification {
-    background-color: #2a143f;
-    color: #fff;
-    padding: 10px;
-    font-size: 18px;
-    position: fixed;
-    bottom: 20px;
-    left: 20.0%;
-    right: 20.0%;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    display: none;
-    animation: slide-in 0.5s ease-out;
-    width: 60%;
+/* Notification styling */
+#notification {
+  background-color: #5846f9;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: none;
+  animation: slide-in 0.5s ease-out;
+  width: 300px;
+
+  /* Icon (optional) */
+  display: flex;
+  align-items: center;
+}
+
+#notification .icon {
+  margin-right: 10px;
+  font-size: 18px; /* Adjust font size based on your chosen icon */
+}
+
+#notification .message {
+  flex: 1; /* Allow message content to fill remaining space */
+}
+
+#notification .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100%);
   }
-  
-  #notification .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
+  100% {
+    transform: translateY(0);
   }
-  
-  @keyframes slide-in {
-    0% {
-      transform: translateY(100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
+}
   /* Text selection styling */
   ::selection {
     color: #fff;
