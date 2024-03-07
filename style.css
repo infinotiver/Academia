@@ -31,7 +31,6 @@ body {
 /* Links and paragraphs */
 a {
   text-decoration: none;
-  color: #ffffff;
 }
 
 p {
@@ -59,11 +58,12 @@ p {
   color: #fff;
   font-weight: 700;
   line-height: 1.25;
+  font-size: 25px;
 }
 
 .hero-text h1 {
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .hero-text p {
@@ -192,16 +192,17 @@ h2, .hero h2 {
   left: 0;
   width: 100%;
   transition: all 0.3s ease-in-out;
-
+  background: #fff;
   backdrop-filter: blur(100px);
   z-index: 9999;
-  padding:10px
+  padding: 10px;
+  color: #000; /* Set the default link color */
 }
 
 .navbar.scrolled {
   background: #7c56c4;
   backdrop-filter: blur(99px);
-  margin:10px
+  margin: 10px;
 }
 
 .navbar ul {
@@ -214,7 +215,6 @@ h2, .hero h2 {
 
 .navbar li {
   position: relative;
-  color:#fff
 }
 
 .navbar>ul>li {
@@ -232,6 +232,7 @@ h2, .hero h2 {
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  color: #000; /* Set the default link color */
 }
 
 .navbar a i, .navbar a:focus i {
@@ -246,7 +247,7 @@ h2, .hero h2 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #ffffff;
+  background-color: #000;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -255,10 +256,11 @@ h2, .hero h2 {
 .navbar a:hover:before, .navbar li:hover>a:before, .navbar .active:before {
   visibility: visible;
   width: 100%;
+  color: #140f41;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
-  color: #ffffff;
+  color: #2c2b71; /* Set the link color when hovered or active */
 }
 
 .navbar .getstarted, .navbar .getstarted:focus {
@@ -266,19 +268,21 @@ h2, .hero h2 {
   border-radius: 5px;
   transition: 0.3s;
   padding-right: 10px;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #5846f9;
+  color: #140f41;
 }
 
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #563afae6;
+  color: #fff;
   border-color: 2px solid #2c2b71;
-  background: #ffffff;
+  background: #5846f9;
 }
 
 .navbar .getstarted:before, .navbar li:hover>.getstarted:before {
   visibility: hidden;
 }
+
+
 /* Dropdown styling */
 .navbar .dropdown {
   position: relative;
@@ -288,9 +292,8 @@ h2, .hero h2 {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: none;
   position: absolute;
-  top: calc(100% + 10px);
+  top: 100%; /* Adjusted to make sure it appears below the parent */
   left: 0;
   background: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -298,6 +301,7 @@ h2, .hero h2 {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  border-radius: 5px;
 }
 
 .navbar .dropdown > ul > li {
@@ -318,7 +322,14 @@ h2, .hero h2 {
   color: #5846f9;
 }
 
+.navbar .dropdown:hover > ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
 .navbar .dropdown > ul > li > ul {
+  display: none;
   position: absolute;
   top: 0;
   left: 100%;
