@@ -37,18 +37,20 @@ p {
   font-family: 'Comfortaa', sans-serif;
 }
 
+/* Hero styling */
 .hero {
   position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
 .hero-content {
   display: flex;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-text {
@@ -59,11 +61,11 @@ p {
   font-weight: 700;
   line-height: 1.25;
   font-size: 25px;
+  margin-right: 20px; /* Add margin to separate text and image */
 }
 
 .hero-text h1 {
   font-size: 2em;
-  margin-bottom: 20px;
 }
 
 .hero-text p {
@@ -73,11 +75,22 @@ p {
 
 .hero-image {
   flex: 1;
-
 }
-.hero-image img{
-  width: 40%; /* Adjust the width as needed */
-  height: 40%; /* Adjust the height as needed */ 
+
+.hero-image img {
+  width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  animation: floatAnimation 3s infinite;
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 .hero h3, h4 {
   margin: 10px;
@@ -192,7 +205,7 @@ h2, .hero h2 {
   left: 0;
   width: 100%;
   transition: all 0.3s ease-in-out;
-  background: #fff;
+  background: linear-gradient(45deg, #9f95f8, #fcafe5);
   backdrop-filter: blur(100px);
   z-index: 9999;
   padding: 10px;
