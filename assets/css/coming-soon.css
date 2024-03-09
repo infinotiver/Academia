@@ -32,6 +32,26 @@ p {
     font-size: 1.2em;
 }
 
+.progress-container {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    background-color: #007BFF;
+}
+
 form {
     margin-top: 20px;
 }
@@ -40,8 +60,8 @@ form input,
 form button {
     padding: 10px;
     font-size: 1em;
-    border: none; /* Remove border */
-    border-radius: 5px; /* Add border-radius for a clean look */
+    border: none;
+    border-radius: 5px;
 }
 
 form button {
