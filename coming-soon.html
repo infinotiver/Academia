@@ -27,11 +27,11 @@
                         </div>
                     </div>
                 </div>
-                <form>
+                <form id="notifyForm">
                     <h6>Notify me when the website is launched</h6>
                     <div class="notify-container">
-                        <input type="email" placeholder="Enter your email">
-                        <button type="button">Notify Me!</button>
+                        <input type="email" id="emailInput" placeholder="Enter your email">
+                        <button type="button" onclick="notifyMe()">Notify Me!</button>
                     </div>
                 </form>
             </div>
@@ -40,7 +40,13 @@
             </div>
         </section>
     </main>
-
+    <script>
+        function notifyMe() {
+            // Here you can add your logic to handle the form submission
+            // For this example, let's just simulate a notification
+            alert('You wasted your time clicking the button!');
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init();
