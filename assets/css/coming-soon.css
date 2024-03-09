@@ -28,7 +28,9 @@ h1, p, h6 {
 
 h1 {
     font-size: 3em;
-    
+    color:#000; 
+    line-height: 1.25;
+    margin:10px;
 }
 
 p {
