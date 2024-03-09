@@ -37,6 +37,7 @@ p {
 
 .progress-container {
     margin-top: 20px;
+    transition: .5s;
 }
 
 .progress-bar {
@@ -45,6 +46,7 @@ p {
     background-color: #ddd;
     border-radius: 30px;
     overflow: hidden;
+    transition: .5s;
 }
 
 .progress-bar span {
@@ -53,6 +55,7 @@ p {
     width: 0;
     border-radius: 15px;
     background-color: #007BFF;
+    transition: .5s;
 }
 
 form {
