@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 80%; /* Set the width to 100% */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, p, h6 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input,
+form button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
