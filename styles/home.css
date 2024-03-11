@@ -20,7 +20,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #010922;
+  background: #010922;
 }
 a {
   text-decoration: none;
