@@ -71,7 +71,7 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .navigation-bar .navbar-frame .our-mission {
+.home .navigation-bar .navbar-frame .link {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -80,42 +80,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar .navbar-frame .about {
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.375;
-  color: #ffffff;
-  font-family: Roboto, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.home .navigation-bar .navbar-frame .resources-8xc {
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.375;
-  color: #ffffff;
-  font-family: Roboto, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.home .navigation-bar .navbar-frame .contact-UWg {
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.375;
-  color: #ffffff;
-  font-family: Roboto, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.home .navigation-bar .navbar-frame .join-discord-d8g {
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 1.375;
-  color: #ffffff;
-  font-family: Roboto, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
+
 .home .auto-group-vh6l-xAx {
   box-sizing: border-box;
   padding: 5rem 6.2rem 26.3rem 15.7rem;
