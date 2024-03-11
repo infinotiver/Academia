@@ -105,14 +105,14 @@ a {
   display: flex;
   align-items: center;
 }
-.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text {
   margin: 2.3rem 4.7rem 2.9rem 0rem;
   height: calc(100% - 5.2rem);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .motto {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text .motto {
   margin-bottom: 3rem;
   max-width: 49.2rem;
   font-size: 6.5rem;
@@ -123,7 +123,7 @@ a {
   flex-shrink: 0;
 }
 
-.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .motto .hero-emphasis {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text .motto .hero-emphasis {
   font-size: 6.5rem;
   font-weight: 700;
   line-height: 1;
@@ -131,7 +131,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
 }
 
-.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .at-academia-education-meets-community-3Qg {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text .at-academia-education-meets-community-3Qg {
   margin-left: 0.9rem;
   max-width: 27.2rem;
   font-size: 2rem;
