@@ -20,7 +20,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: #010922;
+  background: linear-gradient(22.5deg, #010922 70%,#8080d7);
 }
 a {
   text-decoration: none;
