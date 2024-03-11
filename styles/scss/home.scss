@@ -403,7 +403,12 @@ body {
           margin-right: 3.6rem;
           font-weight: 600;
           color: #ffffff;
-        }
+          transition: .2s;
+         }
+         .button-community-ScU:hover {
+          background-color: #ffffff;
+          color: #8080d7;
+         }
         .button-know-more-hYQ {
           font-weight: 600;
           letter-spacing: 0.04rem;

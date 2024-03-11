@@ -389,6 +389,11 @@ a {
   background-color: #8080d7;
   border-radius: 6rem;
   flex-shrink: 0;
+  transition: .2s;
+}
+.home .auto-group-vh6l-xAx .hero-section .hero-button-WTv .button-community-ScU:hover {
+  background-color: #ffffff;
+  color: #8080d7;
 }
 .home .auto-group-vh6l-xAx .hero-section .hero-button-WTv .button-know-more-hYQ {
   width: 31.2rem;
