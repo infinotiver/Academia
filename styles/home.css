@@ -60,14 +60,14 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.home .navigation-bar .frame-1-wt8 {
+.home .navigation-bar .navbar-frame {
   margin-bottom: 0.7rem;
   display: flex;
   column-gap: 9.3rem;
   align-items: center;
   flex-shrink: 0;
 }
-.home .navigation-bar .frame-1-wt8 .our-mission-5De {
+.home .navigation-bar .navbar-frame .our-mission-5De {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -76,7 +76,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar .frame-1-wt8 .about-D4x {
+.home .navigation-bar .navbar-frame .about-D4x {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -85,7 +85,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar .frame-1-wt8 .resources-8xc {
+.home .navigation-bar .navbar-frame .resources-8xc {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -94,7 +94,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar .frame-1-wt8 .contact-UWg {
+.home .navigation-bar .navbar-frame .contact-UWg {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -103,7 +103,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar .frame-1-wt8 .join-discord-d8g {
+.home .navigation-bar .navbar-frame .join-discord-d8g {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
