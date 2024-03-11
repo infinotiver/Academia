@@ -79,8 +79,11 @@ a {
   font-family: Roboto, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  transition: .2s;
 }
-
+.home .navigation-bar .navbar-frame .link:hover{
+  color: #8080d7;
+}
 .home .auto-group-vh6l-xAx {
   box-sizing: border-box;
   padding: 5rem 6.2rem 26.3rem 15.7rem;
