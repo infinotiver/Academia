@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   background-color: #010922;
 }
-.home .navigation-bar-pNG {
+.home .navigation-bar {
   box-sizing: border-box;
   padding: 2.3rem 11.5rem 1.6rem 7.5rem;
   width: 100%;
@@ -31,7 +31,7 @@ body {
   background-color: #000411;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .academia-4R2 {
+.home .navigation-bar .academia-4R2 {
   margin: 0.1rem 2.2rem 0rem 0rem;
   font-size: 2rem;
   font-weight: 800;
@@ -42,7 +42,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .logo-button-7PJ {
+.home .navigation-bar .logo-button-7PJ {
   margin-right: 20.9rem;
   width: 12.1rem;
   height: 100%;
@@ -60,14 +60,14 @@ body {
   border-radius: 5rem;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .frame-1-wt8 {
+.home .navigation-bar .frame-1-wt8 {
   margin-bottom: 0.7rem;
   display: flex;
   column-gap: 9.3rem;
   align-items: center;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .frame-1-wt8 .our-mission-5De {
+.home .navigation-bar .frame-1-wt8 .our-mission-5De {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -76,7 +76,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .frame-1-wt8 .about-D4x {
+.home .navigation-bar .frame-1-wt8 .about-D4x {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -85,7 +85,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .frame-1-wt8 .resources-8xc {
+.home .navigation-bar .frame-1-wt8 .resources-8xc {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -94,7 +94,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .frame-1-wt8 .contact-UWg {
+.home .navigation-bar .frame-1-wt8 .contact-UWg {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
@@ -103,7 +103,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .navigation-bar-pNG .frame-1-wt8 .join-discord-d8g {
+.home .navigation-bar .frame-1-wt8 .join-discord-d8g {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.375;
