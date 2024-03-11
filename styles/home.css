@@ -84,7 +84,7 @@ a {
 .home .navigation-bar .navbar-frame .link:hover{
   color: #8080d7;
 }
-.home .auto-group-vh6l-xAx {
+.home .hero-group {
   box-sizing: border-box;
   padding: 5rem 6.2rem 26.3rem 15.7rem;
   width: 100%;
@@ -93,26 +93,26 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section {
+.home .hero-group .hero-section {
   margin: 0rem 7.2rem 18.4rem 0rem;
   width: 108.7rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z {
+.home .hero-group .hero-section .auto-group-j9jc-n9z {
   margin-bottom: 8.2rem;
   width: 100%;
   height: 39.7rem;
   display: flex;
   align-items: center;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .hero-text-6Ra {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra {
   margin: 2.3rem 4.7rem 2.9rem 0rem;
   height: calc(100% - 5.2rem);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr {
   margin-bottom: 3rem;
   max-width: 49.2rem;
   font-size: 6.5rem;
@@ -122,18 +122,18 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr .empowering-the-mind-transforming-the-world-RTr-sub-0 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr .empowering-the-mind-transforming-the-world-RTr-sub-0 {
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr .empowering-the-mind-transforming-the-world-RTr-sub-1 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr .empowering-the-mind-transforming-the-world-RTr-sub-1 {
   font-size: 6.5rem;
   font-weight: 700;
   line-height: 1;
   color: #fce4ec;
   font-family: Outfit, 'Source Sans Pro';
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr .empowering-the-mind-transforming-the-world-RTr-sub-2 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .empowering-the-mind-transforming-the-world-RTr .empowering-the-mind-transforming-the-world-RTr-sub-2 {
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .at-academia-education-meets-community-3Qg {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text-6Ra .at-academia-education-meets-community-3Qg {
   margin-left: 0.9rem;
   max-width: 27.2rem;
   font-size: 2rem;
@@ -143,13 +143,13 @@ a {
   font-family: Roboto, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 {
   width: 54.8rem;
   height: 100%;
   position: relative;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i {
   box-sizing: border-box;
   padding: 0.43rem 0.93rem 0.43rem 0.93rem;
   width: 18.1rem;
@@ -160,13 +160,13 @@ a {
   background-color: #2a2d30;
   border-radius: 0.5rem;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .frame-M3z {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .frame-M3z {
   margin: 0.84rem 0.28rem 0.84rem 0rem;
   width: 0.28rem;
   height: calc(100% - 1.68rem);
@@ -174,7 +174,7 @@ a {
   border-radius: 0 0.28rem 0.28rem 0;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY {
   box-sizing: border-box;
   padding: 0.42rem 0.56rem 0.42rem 0.56rem;
   width: 15.68rem;
@@ -184,7 +184,7 @@ a {
   border-radius: 0.28rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY .auto-layout-horizontal-8U4 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY .auto-layout-horizontal-8U4 {
   box-sizing: border-box;
   padding-left: 0.1222rem;
   width: 13.72rem;
@@ -192,7 +192,7 @@ a {
   display: flex;
   align-items: center;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY .auto-layout-horizontal-8U4 .frame-sAk {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY .auto-layout-horizontal-8U4 .frame-sAk {
   margin: 0rem 0.537rem 0.058rem 0rem;
   width: 1.1611rem;
   height: 1.1083rem;
@@ -200,7 +200,7 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY .auto-layout-horizontal-8U4 .frame-BSL {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-J5i .discord-channel-bac .auto-layout-horizontal-RpY .auto-layout-horizontal-8U4 .frame-BSL {
   box-sizing: border-box;
   padding: 0 0.03rem;
   width: 11.9rem;
@@ -216,14 +216,14 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx {
   width: 49.5rem;
   height: 39.7rem;
   position: absolute;
   left: 0;
   top: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .books-k84 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .books-k84 {
   width: 43.4rem;
   height: 39rem;
   position: absolute;
@@ -232,7 +232,7 @@ a {
   object-fit: cover;
   vertical-align: top;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG {
   box-sizing: border-box;
   padding: 0rem 5.6rem 0rem 0.9rem;
   width: 36.3rem;
@@ -245,7 +245,7 @@ a {
   background-color: rgba(243, 252, 255, 0.8000000119);
   border-radius: 2rem;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG .book-library-MNk {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG .book-library-MNk {
   margin: 0rem 1.4rem 0.1rem 0rem;
   width: 9.4rem;
   height: 8.7rem;
@@ -253,7 +253,7 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG .online-resources-Twa {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG .online-resources-Twa {
   margin-top: 0.4rem;
   font-size: 2rem;
   font-weight: 400;
@@ -263,7 +263,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr {
   box-sizing: border-box;
   padding: 1.2rem 8.1rem 1.2rem 1.6rem;
   width: 36.3rem;
@@ -276,18 +276,18 @@ a {
   background-color: #8080d7;
   border-radius: 2rem;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr .object-other-18-ULt {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr .object-other-18-ULt {
   margin-right: 2.4rem;
   height: 100%;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr .object-other-18-ULt .object-other-18-E5A {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr .object-other-18-ULt .object-other-18-E5A {
   width: 7.5rem;
   height: 6.4rem;
   object-fit: cover;
   vertical-align: top;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr .latest-updates-AjW {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .latest-update-NHr .latest-updates-AjW {
   margin-bottom: 0.6rem;
   font-size: 2rem;
   font-weight: 700;
@@ -297,7 +297,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU {
   box-sizing: border-box;
   padding: 0.43rem 0.93rem 0.43rem 0.93rem;
   width: 18.1rem;
@@ -308,13 +308,13 @@ a {
   background-color: #2a2d30;
   border-radius: 0.5rem;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .frame-wtg {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .frame-wtg {
   margin: 0.84rem 0.28rem 0.84rem 0rem;
   width: 0.28rem;
   height: calc(100% - 1.68rem);
@@ -322,7 +322,7 @@ a {
   border-radius: 0 0.28rem 0.28rem 0;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 {
   box-sizing: border-box;
   padding: 0.42rem 0.56rem 0.42rem 0.56rem;
   width: 15.68rem;
@@ -332,7 +332,7 @@ a {
   border-radius: 0.28rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 .auto-layout-horizontal-PVn {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 .auto-layout-horizontal-PVn {
   box-sizing: border-box;
   padding-left: 0.1222rem;
   width: 13.72rem;
@@ -340,7 +340,7 @@ a {
   display: flex;
   align-items: center;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 .auto-layout-horizontal-PVn .frame-inx {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 .auto-layout-horizontal-PVn .frame-inx {
   margin: 0rem 0.537rem 0.058rem 0rem;
   width: 1.1611rem;
   height: 1.1083rem;
@@ -348,7 +348,7 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 .auto-layout-horizontal-PVn .frame-rPN {
+.home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .discord-channel-5rU .discord-channel-PcG .auto-layout-horizontal-Ts2 .auto-layout-horizontal-PVn .frame-rPN {
   box-sizing: border-box;
   padding: 0 0.03rem;
   width: 11.9rem;
@@ -364,7 +364,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .hero-section .hero-button-WTv {
+.home .hero-group .hero-section .hero-button-WTv {
   margin-right: 42.7rem;
   width: calc(100% - 42.7rem);
   height: 7.4rem;
@@ -372,7 +372,7 @@ a {
   align-items: center;
   border-radius: 6rem;
 }
-.home .auto-group-vh6l-xAx .hero-section .hero-button-WTv .button-community-ScU {
+.home .hero-group .hero-section .hero-button-WTv .button-community-ScU {
   margin-right: 3.6rem;
   width: 31.2rem;
   height: 100%;
@@ -391,11 +391,11 @@ a {
   flex-shrink: 0;
   transition: .2s;
 }
-.home .auto-group-vh6l-xAx .hero-section .hero-button-WTv .button-community-ScU:hover {
+.home .hero-group .hero-section .hero-button-WTv .button-community-ScU:hover {
   background-color: #ffffff;
   color: #8080d7;
 }
-.home .auto-group-vh6l-xAx .hero-section .hero-button-WTv .button-know-more-hYQ {
+.home .hero-group .hero-section .hero-button-WTv .button-know-more-hYQ {
   width: 31.2rem;
   height: 100%;
   font-size: 2rem;
@@ -413,7 +413,7 @@ a {
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov {
+.home .hero-group .analytics-section-Yov {
   margin: 0rem 12.5rem 16.1rem 3.1rem;
   width: calc(100% - 15.6rem);
   height: 20.7rem;
@@ -421,12 +421,12 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz {
   width: 34.8rem;
   height: 100%;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-cYt {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-cYt {
   margin-bottom: 4.6rem;
   font-size: 2rem;
   font-weight: 600;
@@ -437,7 +437,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   white-space: nowrap;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr {
   box-sizing: border-box;
   padding: 0rem 7.568rem 0rem 0.955rem;
   width: 100%;
@@ -447,17 +447,17 @@ a {
   background-color: #9a8cb2;
   border-radius: 2rem;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .object-other-20-T3i {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .object-other-20-T3i {
   margin: 0rem 3.002rem 0.1rem 0rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .object-other-20-T3i .object-other-20-au2 {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .object-other-20-T3i .object-other-20-au2 {
   width: 13.3741rem;
   height: 13.2rem;
   object-fit: cover;
   vertical-align: top;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v {
   margin: 2.1rem 0rem 0.9rem 0rem;
   height: calc(100% - 3rem);
   align-items: center;
@@ -465,7 +465,7 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v .item-30-3Xi {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v .item-30-3Xi {
   margin: 0rem 0rem 1rem 0.556rem;
   font-size: 6.5rem;
   font-weight: 700;
@@ -475,7 +475,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v .members-xeg {
+.home .hero-group .analytics-section-Yov .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v .members-xeg {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.375;
@@ -486,7 +486,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 {
   box-sizing: border-box;
   padding: 7.4rem 0rem 0rem 1.2rem;
   height: 100%;
@@ -494,7 +494,7 @@ a {
   align-items: flex-end;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG {
   margin-right: 1.9rem;
   box-sizing: border-box;
   padding: 0.1rem 4.917rem 0rem 2.273rem;
@@ -505,25 +505,25 @@ a {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .object-other-09-6PW {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .object-other-09-6PW {
   margin-right: 1.6047rem;
   height: 100%;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .object-other-09-6PW .object-other-09-TE4 {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .object-other-09-6PW .object-other-09-TE4 {
   width: 13.1051rem;
   height: 13.2rem;
   object-fit: cover;
   vertical-align: top;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .text-PNc {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .text-PNc {
   margin: 2rem 0rem 0.9rem 0rem;
   height: calc(100% - 2.9rem);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .text-PNc .item-6-v7e {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .text-PNc .item-6-v7e {
   margin: 0rem 0rem 1rem 1.204rem;
   font-size: 6.5rem;
   font-weight: 700;
@@ -533,7 +533,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .text-PNc .subject-notes-Eu2 {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-notes-aAG .text-PNc .subject-notes-Eu2 {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.8333333333;
@@ -544,7 +544,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ {
   box-sizing: border-box;
   padding: 0.9rem 7.265rem 0.9rem 0.3rem;
   height: 100%;
@@ -554,7 +554,7 @@ a {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .award-fUY {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .award-fUY {
   margin-right: 1.3059rem;
   width: 12.6rem;
   height: 11.5rem;
@@ -562,14 +562,14 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN {
   margin-top: 1.2rem;
   align-items: flex-end;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 {
   margin-bottom: 1rem;
   font-size: 6.5rem;
   font-weight: 700;
@@ -581,9 +581,9 @@ a {
   align-items: baseline;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 .item-1-wS4-sub-0 {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 .item-1-wS4-sub-0 {
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 .item-1-wS4-sub-1 {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 .item-1-wS4-sub-1 {
   font-size: 1.7rem;
   font-weight: 600;
   line-height: 1.6176470588;
@@ -592,7 +592,7 @@ a {
   color: #ffffff;
   font-family: Outfit, 'Source Sans Pro';
 }
-.home .auto-group-vh6l-xAx .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .experience-H8Y {
+.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .experience-H8Y {
   margin-right: 0.3294rem;
   font-size: 2rem;
   font-weight: 600;
@@ -604,14 +604,14 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e {
+.home .hero-group .mission-statement-a7e {
   margin: 0rem 12.8rem 10.7rem 2.1rem;
   width: calc(100% - 14.9rem);
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e .left-side-JJY {
+.home .hero-group .mission-statement-a7e .left-side-JJY {
   margin-right: 1.3rem;
   width: 54.9rem;
   height: 43.8rem;
@@ -619,20 +619,20 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e .right-side-3G8 {
+.home .hero-group .mission-statement-a7e .right-side-3G8 {
   margin-top: 2.3rem;
   display: flex;
   flex-direction: column;
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat {
+.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat {
   margin: 0rem 0rem 3.3rem 0.7rem;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat .mission-statement-KzL {
+.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat .mission-statement-KzL {
   margin-bottom: 3.4rem;
   font-size: 2.4rem;
   font-weight: 700;
@@ -644,7 +644,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-Fd6 {
+.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-Fd6 {
   margin-left: 0.4rem;
   max-width: 49.9rem;
   font-size: 3rem;
@@ -655,7 +655,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .mission-statement-a7e .right-side-3G8 .mission-statement--pZi {
+.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement--pZi {
   width: 48rem;
   height: 7.4rem;
   display: flex;
@@ -673,27 +673,27 @@ a {
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG {
+.home .hero-group .about-us-UeG {
   margin-bottom: 7.1rem;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG .right-side-py2 {
+.home .hero-group .about-us-UeG .right-side-py2 {
   margin: 2rem 1.1rem 0rem 0rem;
   display: flex;
   flex-direction: column;
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG .right-side-py2 .mission-statement-text-9kQ {
+.home .hero-group .about-us-UeG .right-side-py2 .mission-statement-text-9kQ {
   margin: 0rem 0rem 3.3rem 0.7rem;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG .right-side-py2 .mission-statement-text-9kQ .about-us-Hrc {
+.home .hero-group .about-us-UeG .right-side-py2 .mission-statement-text-9kQ .about-us-Hrc {
   margin-bottom: 3.4rem;
   font-size: 2.4rem;
   font-weight: 700;
@@ -705,7 +705,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG .right-side-py2 .mission-statement-text-9kQ .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-opx {
+.home .hero-group .about-us-UeG .right-side-py2 .mission-statement-text-9kQ .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-opx {
   margin-left: 0.4rem;
   max-width: 49.9rem;
   font-size: 3rem;
@@ -716,7 +716,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG .right-side-py2 .mission-statement--2Bv {
+.home .hero-group .about-us-UeG .right-side-py2 .mission-statement--2Bv {
   width: 48rem;
   height: 7.4rem;
   display: flex;
@@ -734,14 +734,14 @@ a {
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .about-us-UeG .left-side-JQL {
+.home .hero-group .about-us-UeG .left-side-JQL {
   width: 70rem;
   height: 55rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt {
+.home .hero-group .services-container-EYt {
   margin-right: 9.4rem;
   box-sizing: border-box;
   padding: 1.9rem 1.4rem 1.4rem 1.3rem;
@@ -753,7 +753,7 @@ a {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-9Qx {
+.home .hero-group .services-container-EYt .services-offered-9Qx {
   margin: 0rem 0rem 5.4rem 3rem;
   text-align: center;
   display: flex;
@@ -768,7 +768,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg {
+.home .hero-group .services-container-EYt .services-offered-qYg {
   width: 100%;
   display: flex;
   column-gap: 2.1rem;
@@ -776,7 +776,7 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg {
   margin-bottom: 0.1rem;
   box-sizing: border-box;
   padding: 1.6rem 1.2rem 10.3rem 1.2rem;
@@ -790,14 +790,14 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-2zta-6jW {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-2zta-6jW {
   margin: 0rem 1.8rem 1rem 0rem;
   width: 29rem;
   height: 10.9rem;
   position: relative;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-2zta-6jW .image-4-2NG {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-2zta-6jW .image-4-2NG {
   width: 11.8rem;
   height: 10.9rem;
   position: absolute;
@@ -806,7 +806,7 @@ a {
   object-fit: cover;
   vertical-align: top;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-2zta-6jW .doubt-dash-ZNC {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-2zta-6jW .doubt-dash-ZNC {
   width: 17.4rem;
   height: 3rem;
   position: absolute;
@@ -819,14 +819,14 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   white-space: nowrap;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk {
   margin: 0rem 4rem 0rem 1.8rem;
   width: calc(100% - 5.8rem);
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .auto-group-ozon-Ps2 {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .auto-group-ozon-Ps2 {
   margin: 0.5rem 1rem 0rem 0rem;
   width: 1rem;
   align-items: center;
@@ -834,20 +834,20 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .auto-group-ozon-Ps2 .rectangle-3-83v {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .auto-group-ozon-Ps2 .rectangle-3-83v {
   margin-bottom: 6rem;
   width: 100%;
   height: 1rem;
   background-color: #789bdb;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .auto-group-ozon-Ps2 .rectangle-4-4yA {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .auto-group-ozon-Ps2 .rectangle-4-4yA {
   width: 100%;
   height: 1rem;
   background-color: #789bdb;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .rapid-homework-assistance-get-quick-and-accurate-solutions-to-your-homework-queries-instant-doubt-resolution-clear-your-doubts-promptly-with-our-responsive-support-RYp {
+.home .hero-group .services-container-EYt .services-offered-qYg .help-zAg .auto-group-w492-4pk .rapid-homework-assistance-get-quick-and-accurate-solutions-to-your-homework-queries-instant-doubt-resolution-clear-your-doubts-promptly-with-our-responsive-support-RYp {
   max-width: 23rem;
   font-size: 1.6rem;
   font-weight: 700;
@@ -856,7 +856,7 @@ a {
   font-family: Mukta, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN {
   box-sizing: border-box;
   padding: 2.2rem 1.2rem 6.3rem 1.2rem;
   width: 33.2rem;
@@ -869,7 +869,7 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE {
   margin: 0rem 3.5rem 1.4rem 0rem;
   width: calc(100% - 3.5rem);
   height: 9.9rem;
@@ -877,7 +877,7 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW {
   margin-right: 0.7rem;
   box-sizing: border-box;
   padding: 3.2rem 3.2rem 4.2rem 3.7rem;
@@ -888,13 +888,13 @@ a {
   background-image: url('../assets/image-17-bg.png');
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW .ellipse-52-2S8 {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW .ellipse-52-2S8 {
   width: 3.1rem;
   height: 2.5rem;
   object-fit: contain;
   vertical-align: top;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .knowledge-nexus-jrL {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .knowledge-nexus-jrL {
   margin-top: 0.3rem;
   max-width: 16.6rem;
   font-size: 3.2rem;
@@ -904,14 +904,14 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di {
   margin: 0rem 2rem 0rem 1.8rem;
   width: calc(100% - 3.8rem);
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 {
   margin: 0.5rem 1rem 0rem 0rem;
   width: 1rem;
   align-items: center;
@@ -919,20 +919,20 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-3-jUx {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-3-jUx {
   margin-bottom: 9rem;
   width: 100%;
   height: 1rem;
   background-color: #d7ae49;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-5-HmN {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-5-HmN {
   width: 100%;
   height: 1rem;
   background-color: #d7ae49;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .comprehensive-notes-resources-access-well-organized-notes-and-resources-for-a-deeper-understanding-chapter-timelines-for-effective-learning-stay-on-track-with-timelines-that-guide-your-learning-journey-Egc {
+.home .hero-group .services-container-EYt .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .comprehensive-notes-resources-access-well-organized-notes-and-resources-for-a-deeper-understanding-chapter-timelines-for-effective-learning-stay-on-track-with-timelines-that-guide-your-learning-journey-Egc {
   max-width: 25rem;
   font-size: 1.6rem;
   font-weight: 700;
@@ -941,7 +941,7 @@ a {
   font-family: Mukta, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G {
   box-sizing: border-box;
   padding: 2.7rem 1.4rem 9.3rem 1.4rem;
   width: 33.2rem;
@@ -954,21 +954,21 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt {
   margin: 0rem 4.4rem 3rem 0rem;
   width: calc(100% - 4.4rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt .image-16-teg {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt .image-16-teg {
   width: 9.4rem;
   height: 8.8rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt .info-insight-dcG {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt .info-insight-dcG {
   margin-bottom: 2rem;
   font-size: 3.2rem;
   font-weight: 700;
@@ -978,7 +978,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg {
   margin: 0rem 1.5rem 0rem 1.6rem;
   width: calc(100% - 3.1rem);
   height: 12rem;
@@ -986,7 +986,7 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC {
   margin: 0.5rem 1rem 0.5rem 0rem;
   width: 1rem;
   height: calc(100% - 1rem);
@@ -995,20 +995,20 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-3-zLL {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-3-zLL {
   margin-bottom: 9rem;
   width: 100%;
   height: 1rem;
   background-color: #ff95b8;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-5-joi {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-5-joi {
   width: 100%;
   height: 1rem;
   background-color: #ff95b8;
   flex-shrink: 0;
 }
-.home .auto-group-vh6l-xAx .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .stay-updated-with-latest-channels-receive-timely-updates-from-various-educational-channels-curated-educational-content-explore-handpicked-content-to-enhance-your-knowledge-base-VH6 {
+.home .hero-group .services-container-EYt .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .stay-updated-with-latest-channels-receive-timely-updates-from-various-educational-channels-curated-educational-content-explore-handpicked-content-to-enhance-your-knowledge-base-VH6 {
   max-width: 25.3rem;
   font-size: 1.6rem;
   font-weight: 700;
