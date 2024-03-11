@@ -12,6 +12,9 @@ ul, li {
 input {
 	border: none;
 }
+body {
+  scroll-behavior: smooth;
+}
 .home {
   width: 100%;
   align-items: center;
