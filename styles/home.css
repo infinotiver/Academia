@@ -362,7 +362,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .hero-section .hero-button-WTv {
+.home .hero-group .hero-section .hero-button {
   margin-right: 42.7rem;
   width: calc(100% - 42.7rem);
   height: 7.4rem;
@@ -370,7 +370,7 @@ a {
   align-items: center;
   border-radius: 6rem;
 }
-.home .hero-group .hero-section .hero-button-WTv .button-community-ScU {
+.home .hero-group .hero-section .hero-button .button-community-ScU {
   margin-right: 3.6rem;
   width: 31.2rem;
   height: 100%;
@@ -389,11 +389,11 @@ a {
   flex-shrink: 0;
   transition: .2s;
 }
-.home .hero-group .hero-section .hero-button-WTv .button-community-ScU:hover {
+.home .hero-group .hero-section .hero-button .button-community-ScU:hover {
   background-color: #ffffff;
   color: #8080d7;
 }
-.home .hero-group .hero-section .hero-button-WTv .button-know-more-hYQ {
+.home .hero-group .hero-section .hero-button .button-know-more-hYQ {
   width: 31.2rem;
   height: 100%;
   font-size: 2rem;
