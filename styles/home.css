@@ -783,7 +783,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg {
+.home .hero-group .services-container .services-grid {
   width: 100%;
   display: flex;
   column-gap: 2.1rem;
@@ -791,7 +791,7 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .help-zAg {
+.home .hero-group .services-container .services-grid .help-zAg {
   margin-bottom: 0.1rem;
   box-sizing: border-box;
   padding: 1.6rem 1.2rem 10.3rem 1.2rem;
@@ -805,14 +805,14 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .help-zAg .auto-group-2zta-6jW {
+.home .hero-group .services-container .services-grid .help-zAg .auto-group-2zta-6jW {
   margin: 0rem 1.8rem 1rem 0rem;
   width: 29rem;
   height: 10.9rem;
   position: relative;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .help-zAg .auto-group-2zta-6jW .image-4-2NG {
+.home .hero-group .services-container .services-grid .help-zAg .auto-group-2zta-6jW .image-4-2NG {
   width: 11.8rem;
   height: 10.9rem;
   position: absolute;
@@ -821,7 +821,7 @@ a {
   object-fit: cover;
   vertical-align: top;
 }
-.home .hero-group .services-container .services-offered-qYg .help-zAg .auto-group-2zta-6jW .doubt-dash-ZNC {
+.home .hero-group .services-container .services-grid .help-zAg .auto-group-2zta-6jW .doubt-dash-ZNC {
   width: 17.4rem;
   height: 3rem;
   position: absolute;
@@ -834,7 +834,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   white-space: nowrap;
 }
-.home .hero-group .services-container .services-offered-qYg .help-zAg .auto-group-w492-4pk {
+.home .hero-group .services-container .services-grid .help-zAg .auto-group-w492-4pk {
   margin: 0rem 4rem 0rem 1.8rem;
   width: calc(100% - 5.8rem);
   display: flex;
@@ -844,7 +844,7 @@ a {
 
 
 
-.home .hero-group .services-container .services-offered-qYg .help-zAg .auto-group-w492-4pk .doubt-dash-content {
+.home .hero-group .services-container .services-grid .help-zAg .auto-group-w492-4pk .doubt-dash-content {
   max-width: 23rem;
   font-size: 1.6rem;
   line-height: 1.25;
@@ -852,7 +852,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN {
   box-sizing: border-box;
   padding: 2.2rem 1.2rem 6.3rem 1.2rem;
   width: 33.2rem;
@@ -865,7 +865,7 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-cbyg-aKE {
   margin: 0rem 3.5rem 1.4rem 0rem;
   width: calc(100% - 3.5rem);
   height: 9.9rem;
@@ -873,7 +873,7 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW {
   margin-right: 0.7rem;
   box-sizing: border-box;
   padding: 3.2rem 3.2rem 4.2rem 3.7rem;
@@ -884,13 +884,13 @@ a {
   background-image: url('../assets/image-17-bg.png');
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW .ellipse-52-2S8 {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-cbyg-aKE .auto-group-n9zn-uMW .ellipse-52-2S8 {
   width: 3.1rem;
   height: 2.5rem;
   object-fit: contain;
   vertical-align: top;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-cbyg-aKE .knowledge-nexus-jrL {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-cbyg-aKE .knowledge-nexus-jrL {
   margin-top: 0.3rem;
   max-width: 16.6rem;
   font-size: 3.2rem;
@@ -900,14 +900,14 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-bjbn-4di {
   margin: 0rem 2rem 0rem 1.8rem;
   width: calc(100% - 3.8rem);
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 {
   margin: 0.5rem 1rem 0rem 0rem;
   width: 1rem;
   align-items: center;
@@ -915,20 +915,20 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-3-jUx {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-3-jUx {
   margin-bottom: 9rem;
   width: 100%;
   height: 1rem;
   background-color: #d7ae49;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-5-HmN {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-bjbn-4di .auto-group-lrdj-CV2 .rectangle-5-HmN {
   width: 100%;
   height: 1rem;
   background-color: #d7ae49;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .knowledge-nexus-ewN .auto-group-bjbn-4di .comprehensive-notes-resources-access-well-organized-notes-and-resources-for-a-deeper-understanding-chapter-timelines-for-effective-learning-stay-on-track-with-timelines-that-guide-your-learning-journey-Egc {
+.home .hero-group .services-container .services-grid .knowledge-nexus-ewN .auto-group-bjbn-4di .comprehensive-notes-resources-access-well-organized-notes-and-resources-for-a-deeper-understanding-chapter-timelines-for-effective-learning-stay-on-track-with-timelines-that-guide-your-learning-journey-Egc {
   max-width: 25rem;
   font-size: 1.6rem;
   font-weight: 700;
@@ -937,7 +937,7 @@ a {
   font-family: Mukta, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G {
+.home .hero-group .services-container .services-grid .info-insight-38G {
   box-sizing: border-box;
   padding: 2.7rem 1.4rem 9.3rem 1.4rem;
   width: 33.2rem;
@@ -950,21 +950,21 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-vqu2-ACt {
   margin: 0rem 4.4rem 3rem 0rem;
   width: calc(100% - 4.4rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt .image-16-teg {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-vqu2-ACt .image-16-teg {
   width: 9.4rem;
   height: 8.8rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-vqu2-ACt .info-insight-dcG {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-vqu2-ACt .info-insight-dcG {
   margin-bottom: 2rem;
   font-size: 3.2rem;
   font-weight: 700;
@@ -974,7 +974,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-zvsn-LWg {
   margin: 0rem 1.5rem 0rem 1.6rem;
   width: calc(100% - 3.1rem);
   height: 12rem;
@@ -982,7 +982,7 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC {
   margin: 0.5rem 1rem 0.5rem 0rem;
   width: 1rem;
   height: calc(100% - 1rem);
@@ -991,20 +991,20 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-3-zLL {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-3-zLL {
   margin-bottom: 9rem;
   width: 100%;
   height: 1rem;
   background-color: #ff95b8;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-5-joi {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-5-joi {
   width: 100%;
   height: 1rem;
   background-color: #ff95b8;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-offered-qYg .info-insight-38G .auto-group-zvsn-LWg .stay-updated-with-latest-channels-receive-timely-updates-from-various-educational-channels-curated-educational-content-explore-handpicked-content-to-enhance-your-knowledge-base-VH6 {
+.home .hero-group .services-container .services-grid .info-insight-38G .auto-group-zvsn-LWg .stay-updated-with-latest-channels-receive-timely-updates-from-various-educational-channels-curated-educational-content-explore-handpicked-content-to-enhance-your-knowledge-base-VH6 {
   max-width: 25.3rem;
   font-size: 1.6rem;
   font-weight: 700;
