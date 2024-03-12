@@ -20,7 +20,7 @@ body {
   font-family: 'Cunia';
   font-style: normal;
   font-weight: normal;
-  src: local('Cunia'), url('https://github.com/infinotiver/academia/raw/main/fonts/Cunia.woff') format('woff');
+  src: local('Cunia'), url('fonts/Cunia.woff') format('woff');
   }
 .home {
   width: 100%;
