@@ -1,21 +1,31 @@
-<h1 align=center> Academia</h1>
-<h3 align=center>Empowering the mind , transforming the world</h2>
+# ACADEMIA
 
-
-<ul align=center><a href=#about>About </a>  ● <a href=#story>Story </a> ●<a href=#blog> Blog </a>  ● <a href="https://discord.gg/">Community </a> ● <a href=#socials> Connect </a>  ● <a href="https://openacademia.me">Website </a> </ul>
-
-
-<img src="img\demo.png" alt="A short blurred website demo of Academia">
-Revealing Soon...
+[About](#about)∙ [Our mission](#mission) ∙ [Discord server](https://discord.gg) ∙ [Authors](#about)
 
 ___
-<br>
 
-# About
-Our platform offers a wide variety of channels for students to connect and collaborate, from discussing academic subjects to sharing hobbies and interests. Our goal is to create an inclusive and supportive environment where students can thrive and achieve their full potential. Our website houses interactive learning tools, study groups, and a forum for student discussion. We go beyond the basics with blogs covering topics such as money management, coding, and study techniques. Our extensive library of notes, test papers, and educational materials helps students learn more efficiently and effectively. And with our think tank constantly exploring new ideas, we prepare students for the future. At Academia, we believe education is more than good grades; it’s about preparing for a successful and fulfilling life.
+**Website Spoiler**
 
-# Story
-We dont care , building ...
+![img](assets\website-spoiler.png)
 
-# Blog
-# Socials
+___
+
+## Our Mission
+
+> Empowering minds, fostering collaboration, and revolutionising education. Academia is more than a platform; it's a dynamic community where knowledge meets innovation, creating a space where students thrive, connect, and shape their academic journey collaboratively
+
+____
+
+## About Us
+
+> For students, from students.
+
+___
+
+## Authors
+
+- [Infinotiver](https://github.com/infinotiver) -
+  
+  - Founder and Lead Developer
+
+**Looking for collaborators, members and guiders...**
