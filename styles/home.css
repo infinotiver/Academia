@@ -749,10 +749,17 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #8080d7;
+  border: 2px solid #8080d7;
   border-radius: 6rem;
   flex-shrink: 0;
+  transition: .2s;
 }
-.home .hero-group .about-us .left-side-JQL {
+.home .hero-group .about-us .about-us-right .about-us-button:hover{
+  color: #ffffff;
+  border: 2px solid #8080d7;
+  background: #8080d70c;
+}
+.home .hero-group .about-us .about-us-artL {
   width: 70rem;
   height: 55rem;
   object-fit: contain;
