@@ -434,12 +434,12 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz {
+.home .hero-group .analytics-section .analytics-container {
   width: 34.8rem;
   height: 100%;
   flex-shrink: 0;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-cYt {
+.home .hero-group .analytics-section .analytics-container .analytics-cYt {
   margin-bottom: 4.6rem;
   font-size: 2rem;
   font-weight: 600;
@@ -450,7 +450,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   white-space: nowrap;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-member-Xfr {
+.home .hero-group .analytics-section .analytics-container .analytics-member-Xfr {
   box-sizing: border-box;
   padding: 0rem 7.568rem 0rem 0.955rem;
   width: 100%;
@@ -460,17 +460,17 @@ a {
   background-color: #9a8cb2;
   border-radius: 2rem;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-member-Xfr .object-other-20-T3i {
+.home .hero-group .analytics-section .analytics-container .analytics-member-Xfr .object-other-20-T3i {
   margin: 0rem 3.002rem 0.1rem 0rem;
   flex-shrink: 0;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-member-Xfr .object-other-20-T3i .object-other-20-au2 {
+.home .hero-group .analytics-section .analytics-container .analytics-member-Xfr .object-other-20-T3i .object-other-20-au2 {
   width: 13.3741rem;
   height: 13.2rem;
   object-fit: cover;
   vertical-align: top;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v {
+.home .hero-group .analytics-section .analytics-container .analytics-member-Xfr .text-K5v {
   margin: 2.1rem 0rem 0.9rem 0rem;
   height: calc(100% - 3rem);
   align-items: center;
@@ -478,7 +478,7 @@ a {
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v .item-30-3Xi {
+.home .hero-group .analytics-section .analytics-container .analytics-member-Xfr .text-K5v .item-30-3Xi {
   margin: 0rem 0rem 1rem 0.556rem;
   font-size: 6.5rem;
   font-weight: 700;
@@ -488,7 +488,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .analytics-section .auto-group-tjil-Tfz .analytics-member-Xfr .text-K5v .members-xeg {
+.home .hero-group .analytics-section .analytics-container .analytics-member-Xfr .text-K5v .members-xeg {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.375;
