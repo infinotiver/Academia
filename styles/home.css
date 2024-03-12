@@ -138,6 +138,19 @@ a {
   color: #ffffff;
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
+  animation: slideInLeft 1s ease-in-out forwards;
+  transition: .2s;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-10%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+  }
 }
 
 .home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text .motto .hero-emphasis {
