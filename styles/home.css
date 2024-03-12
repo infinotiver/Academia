@@ -159,6 +159,18 @@ a {
   line-height: 1;
   color: #fce4ec;
   font-family: Outfit, 'Source Sans Pro';
+  animation: emphasis 2s forwards;
+  animation-delay: 1s;
+  transition: .2s;
+}
+
+@keyframes emphasis {
+  from {
+    color:#ffffff
+  }
+  to {
+    color: #c7a3db;
+  }
 }
 
 .home .hero-group .hero-section .auto-group-j9jc-n9z .hero-text .sub-motto {
