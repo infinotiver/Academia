@@ -873,7 +873,7 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service2-knowledge-nexus .service2-title-container .auto-group-n9zn-uMW {
+.home .hero-group .services-container .services-grid .service2-knowledge-nexus .service2-title-container .service2-img-container {
   margin-right: 0.7rem;
   box-sizing: border-box;
   padding: 3.2rem 3.2rem 4.2rem 3.7rem;
@@ -884,7 +884,7 @@ a {
   background-image: url('../assets/image-17-bg.png');
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service2-knowledge-nexus .service2-title-container .auto-group-n9zn-uMW .ellipse-52-2S8 {
+.home .hero-group .services-container .services-grid .service2-knowledge-nexus .service2-title-container .service2-img-container .knowledge-nexus-img {
   width: 3.1rem;
   height: 2.5rem;
   object-fit: contain;
