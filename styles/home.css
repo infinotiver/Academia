@@ -929,21 +929,21 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service3 .auto-group-vqu2-ACt {
+.home .hero-group .services-container .services-grid .service3 .service3-title-container {
   margin: 0rem 4.4rem 3rem 0rem;
   width: calc(100% - 4.4rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service3 .auto-group-vqu2-ACt .image-16-teg {
+.home .hero-group .services-container .services-grid .service3 .service3-title-container .image-16-teg {
   width: 9.4rem;
   height: 8.8rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service3 .auto-group-vqu2-ACt .info-insight-dcG {
+.home .hero-group .services-container .services-grid .service3 .service3-title-container .info-insight-dcG {
   margin-bottom: 2rem;
   font-size: 3.2rem;
   font-weight: 700;
