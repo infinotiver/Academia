@@ -15,12 +15,7 @@ input {
 body {
   scroll-behavior: smooth;
 }
-@font-face {
-  font-family: 'Outfit';
-  font-style: normal;
-  font-weight: normal;
-  src: url('fonts/Outfit-Regular.ttf') format('ttf');
-}
+
 @font-face {
   font-family: 'Cunia';
   font-style: normal;
