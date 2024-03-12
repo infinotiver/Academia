@@ -380,7 +380,7 @@ a {
   align-items: center;
   border-radius: 6rem;
 }
-.home .hero-group .hero-section .hero-button .button-community-ScU {
+.home .hero-group .hero-section .hero-button .filled-hero-button {
   margin-right: 3.6rem;
   width: 31.2rem;
   height: 100%;
@@ -399,7 +399,7 @@ a {
   flex-shrink: 0;
   transition: .2s;
 }
-.home .hero-group .hero-section .hero-button .button-community-ScU:hover {
+.home .hero-group .hero-section .hero-button .filled-hero-button:hover {
   background-color: #ffffff;
   color: #8080d7;
 }
