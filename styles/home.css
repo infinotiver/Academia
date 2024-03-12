@@ -15,6 +15,12 @@ input {
 body {
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Outfit'), url('fonts\Outfit-Regular.ttf') format('ttf');
+  }
 .home {
   width: 100%;
   align-items: center;
@@ -579,8 +585,7 @@ a {
   align-items: baseline;
   flex-shrink: 0;
 }
-.home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 .item-1-wS4-sub-0 {
-}
+
 .home .hero-group .analytics-section-Yov .auto-group-hcrp-Es6 .analytics-experience-8zQ .text-CjN .item-1-wS4 .item-1-wS4-sub-1 {
   font-size: 1.7rem;
   font-weight: 600;
