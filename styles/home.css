@@ -805,14 +805,14 @@ a {
   border-radius: 4rem;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service1-doubt-dash .auto-group-2zta-6jW {
+.home .hero-group .services-container .services-grid .service1-doubt-dash .service1-title-container {
   margin: 0rem 1.8rem 1rem 0rem;
   width: 29rem;
   height: 10.9rem;
   position: relative;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service1-doubt-dash .auto-group-2zta-6jW .image-4-2NG {
+.home .hero-group .services-container .services-grid .service1-doubt-dash .service1-title-container .image-4-2NG {
   width: 11.8rem;
   height: 10.9rem;
   position: absolute;
@@ -821,7 +821,7 @@ a {
   object-fit: cover;
   vertical-align: top;
 }
-.home .hero-group .services-container .services-grid .service1-doubt-dash .auto-group-2zta-6jW .doubt-dash-ZNC {
+.home .hero-group .services-container .services-grid .service1-doubt-dash .service1-title-container .doubt-dash-ZNC {
   width: 17.4rem;
   height: 3rem;
   position: absolute;
