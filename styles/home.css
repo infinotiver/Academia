@@ -657,12 +657,11 @@ a {
   flex-shrink: 0;
 }
 .home .hero-group .mission-statement .mission-statement-right .mission-statement-text .our-mission {
-  margin-left: 0.4rem;
-  max-width: 49.9rem;
+  max-width: 50rem;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight:  100;
   line-height: 1.1;
-  letter-spacing: 0.09rem;
+  letter-spacing: 0.1rem;
   color: #ffffff;
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
