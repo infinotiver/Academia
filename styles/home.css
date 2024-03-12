@@ -423,8 +423,8 @@ a {
   transition: .2s;
 }
 .home .hero-group .hero-section .hero-button .unfilled-hero-button:hover {
-  background: #fff;
-  color:#8080d7;
+  border: solid 0.2rem #8080d7;
+  color:#8080d7
 }
 .home .hero-group .analytics-section {
   margin: 0rem 12.5rem 16.1rem 3.1rem;
