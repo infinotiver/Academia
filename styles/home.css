@@ -691,27 +691,27 @@ a {
   border: 2px solid #8080d7;
   background: #8080d70c;
 }
-.home .hero-group .about-us-UeG {
+.home .hero-group .about-us {
   margin-bottom: 7.1rem;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .hero-group .about-us-UeG .right-side-py2 {
+.home .hero-group .about-us .right-side-py2 {
   margin: 2rem 1.1rem 0rem 0rem;
   display: flex;
   flex-direction: column;
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .hero-group .about-us-UeG .right-side-py2 .mission-statement-text-9kQ {
+.home .hero-group .about-us .right-side-py2 .mission-statement-text-9kQ {
   margin: 0rem 0rem 3.3rem 0.7rem;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .hero-group .about-us-UeG .right-side-py2 .mission-statement-text-9kQ .about-us-Hrc {
+.home .hero-group .about-us .right-side-py2 .mission-statement-text-9kQ .about-us-Hrc {
   margin-bottom: 3.4rem;
   font-size: 2.4rem;
   font-weight: 700;
@@ -723,7 +723,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .about-us-UeG .right-side-py2 .mission-statement-text-9kQ .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-opx {
+.home .hero-group .about-us .right-side-py2 .mission-statement-text-9kQ .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-opx {
   margin-left: 0.4rem;
   max-width: 49.9rem;
   font-size: 3rem;
@@ -734,7 +734,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .hero-group .about-us-UeG .right-side-py2 .mission-statement--2Bv {
+.home .hero-group .about-us .right-side-py2 .mission-statement--2Bv {
   width: 48rem;
   height: 7.4rem;
   display: flex;
@@ -752,7 +752,7 @@ a {
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .hero-group .about-us-UeG .left-side-JQL {
+.home .hero-group .about-us .left-side-JQL {
   width: 70rem;
   height: 55rem;
   object-fit: contain;
