@@ -19,8 +19,8 @@ body {
   font-family: 'Outfit';
   font-style: normal;
   font-weight: normal;
-  src: local('Outfit'), url('fonts\Outfit-Regular.ttf') format('ttf');
-  }
+  src: url('fonts\Outfit-Regular.ttf') format('ttf');
+}
 .home {
   width: 100%;
   align-items: center;

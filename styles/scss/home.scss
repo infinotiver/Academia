@@ -12,9 +12,16 @@ ul, li {
 input {
 	border: none;
 }
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts\Outfit-Regular.ttf') format('ttf');
+}
 body {
   width: 144rem;
-}.home {
+}
+.home {
   display: flex;
   flex-direction: column;
   background: linear-gradient(22.5deg, #010922 70%,#8080d7);
