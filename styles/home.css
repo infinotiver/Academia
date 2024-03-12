@@ -75,6 +75,11 @@ a {
   background-color: #8080d7;
   border-radius: 5rem;
   flex-shrink: 0;
+  transition: .2s ease-in-out;
+}
+.home .navigation-bar .logo-button:hover{
+  color:#8080d7;
+  background-color: #fff;
 }
 .home .navigation-bar .navbar-frame {
   margin-bottom: 0.7rem;
