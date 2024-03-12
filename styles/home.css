@@ -252,7 +252,7 @@ a {
   top: 30.9rem;
   display: flex;
   align-items: center;
-  background-color: rgba(243, 252, 255, 0.8000000119);
+  background-color: #5151c4;
   border-radius: 2rem;
 }
 .home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG .book-library-MNk {
@@ -264,11 +264,10 @@ a {
   flex-shrink: 0;
 }
 .home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 .hero-art-bkx .resources--TYG .online-resources-Twa {
-  margin-top: 0.4rem;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.375;
-  color: #000000;
+  color: #ffffff;
   font-family: Outfit, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
