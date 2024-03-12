@@ -168,8 +168,21 @@ a {
   font-weight: 400;
   line-height: 1.375;
   color: #ffffff;
-  font-family: Roboto, 'Source Sans Pro';
+  font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
+  animation: mottoslideInLeft 1s ease-in-out .2s forwards ;
+  transition: .2s;
+}
+
+@keyframes mottoslideInLeft {
+  from {
+    transform: translateX(-10%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+  }
 }
 .home .hero-group .hero-section .auto-group-j9jc-n9z .auto-group-tgnp-kK6 {
   width: 54.8rem;
