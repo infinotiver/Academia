@@ -961,28 +961,8 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.home .hero-group .services-container .services-grid .service3 .auto-group-zvsn-LWg .auto-group-avqg-TrC {
-  margin: 0.5rem 1rem 0.5rem 0rem;
-  width: 1rem;
-  height: calc(100% - 1rem);
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-.home .hero-group .services-container .services-grid .service3 .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-3-zLL {
-  margin-bottom: 9rem;
-  width: 100%;
-  height: 1rem;
-  background-color: #ff95b8;
-  flex-shrink: 0;
-}
-.home .hero-group .services-container .services-grid .service3 .auto-group-zvsn-LWg .auto-group-avqg-TrC .rectangle-5-joi {
-  width: 100%;
-  height: 1rem;
-  background-color: #ff95b8;
-  flex-shrink: 0;
-}
+
+
 .home .hero-group .services-container .services-grid .service3 .auto-group-zvsn-LWg .stay-updated-with-latest-channels-receive-timely-updates-from-various-educational-channels-curated-educational-content-explore-handpicked-content-to-enhance-your-knowledge-base-VH6 {
   max-width: 25.3rem;
   font-size: 1.6rem;
