@@ -616,14 +616,14 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e {
+.home .hero-group .mission-statement {
   margin: 0rem 12.8rem 10.7rem 2.1rem;
   width: calc(100% - 14.9rem);
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e .left-side-JJY {
+.home .hero-group .mission-statement .left-side-JJY {
   margin-right: 1.3rem;
   width: 54.9rem;
   height: 43.8rem;
@@ -631,20 +631,20 @@ a {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e .right-side-3G8 {
+.home .hero-group .mission-statement .right-side-3G8 {
   margin-top: 2.3rem;
   display: flex;
   flex-direction: column;
   border-radius: 6rem;
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat {
+.home .hero-group .mission-statement .right-side-3G8 .mission-statement-text-Pat {
   margin: 0rem 0rem 3.3rem 0.7rem;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat .mission-statement-KzL {
+.home .hero-group .mission-statement .right-side-3G8 .mission-statement-text-Pat .mission-statement-KzL {
   margin-bottom: 3.4rem;
   font-size: 2.4rem;
   font-weight: 700;
@@ -656,7 +656,7 @@ a {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement-text-Pat .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-Fd6 {
+.home .hero-group .mission-statement .right-side-3G8 .mission-statement-text-Pat .empowering-minds-fostering-collaboration-and-revolutionizing-education-academia-is-more-than-a-platform-its-a-dynamic-community-where-knowledge-meets-innovation-creating-a-space-where-students-thrive-connect-and-shape-their-academic-journey-collaboratively-Fd6 {
   margin-left: 0.4rem;
   max-width: 49.9rem;
   font-size: 3rem;
@@ -667,7 +667,7 @@ a {
   font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.home .hero-group .mission-statement-a7e .right-side-3G8 .mission-statement--pZi {
+.home .hero-group .mission-statement .right-side-3G8 .mission-statement--pZi {
   width: 48rem;
   height: 7.4rem;
   display: flex;
