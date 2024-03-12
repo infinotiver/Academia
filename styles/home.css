@@ -20,7 +20,7 @@ body {
   font-family: 'Cunia';
   font-style: normal;
   font-weight: normal;
-  src: local('Cunia Bold'), url('fonts/Cunia.woff') format('woff');
+  src: local('Cunia'), url('fonts\Cunia.woff') format('woff');
   }
 .home {
   width: 100%;
