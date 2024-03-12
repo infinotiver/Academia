@@ -964,13 +964,13 @@ a {
 
 
 .home .hero-group .services-container .services-grid .service3 .service3-content .info-insight-content {
-  max-width: 25.3rem;
+  max-width: 23rem;
   font-size: 1.6rem;
-  font-weight: 700;
   line-height: 1.25;
-  color: #bd6e88;
-  font-family: Mukta, 'Source Sans Pro';
+  font-family: Outfit, 'Source Sans Pro';
   flex-shrink: 0;
+  color: #bd6e88;
+
 }
 .home .footer-Sbe {
   box-sizing: border-box;
