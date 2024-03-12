@@ -759,14 +759,12 @@ a {
   flex-shrink: 0;
 }
 .home .hero-group .services-container {
-  margin-right: 9.4rem;
-  box-sizing: border-box;
-  padding: 1.9rem 1.4rem 1.4rem 1.3rem;
-  width: 106.5rem;
+  margin-right: 5rem;
+  padding: 2rem;
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(101.6deg, #0f2a80 14.98%, #87b2fd 97.8%);
+  background: linear-gradient(100deg, #0f2a80 15%, #87b2fd 85%);
   border-radius: 2rem;
   flex-shrink: 0;
 }
