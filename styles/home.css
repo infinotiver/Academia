@@ -548,7 +548,9 @@ a {
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
+  position: relative;
 }
+
 .home .hero-group .mission-statement .left-side {
   margin-right: 1.3rem;
   width: 54.9rem;
@@ -563,7 +565,9 @@ a {
   flex-direction: column;
   border-radius: 6rem;
   flex-shrink: 0;
+  position: relative; /* Add position relative to the container */
 }
+
 .home .hero-group .mission-statement .mission-statement-right .mission-statement-text {
   margin: 0rem 0rem 3.3rem 0.7rem;
   display: flex;
@@ -617,23 +621,23 @@ a {
   border: 2px solid #8080d7;
   background: #8080d70c;
 }
-.home .hero-group .mission-statement  .vector-qNk {
+.home .hero-group .mission-statement .vector-qNk,
+.home .hero-group .mission-statement .vector-Avp {
   width: 8.3rem;
   height: 6.9rem;
   position: absolute;
-  left: 0;
-  top: 5rem;
   object-fit: contain;
   vertical-align: top;
 }
-.home .hero-group .mission-statement  .vector-Avp {
-  width: 8.3rem;
-  height: 6.9rem;
-  position: absolute;
-  left: 40.5rem;
-  top: 30.7rem;
-  object-fit: contain;
-  vertical-align: top;
+
+.home .hero-group .mission-statement .vector-qNk {
+  left: calc(-1rem ); /* Adjusted to position it to the left side of the container */
+  top: calc(-2rem + 7rem); /* Adjusted to position it at the bottom of the container */
+}
+
+.home .hero-group .mission-statement .vector-Avp {
+  left: calc(40.5rem - 1.3rem); /* Adjusted to position it at the right side of the container */
+  bottom: calc(-1rem + 10rem ); /* Adjusted to position it at the bottom of the container */
 }
 .home .hero-group .about-us {
   margin-bottom: 7.1rem;
