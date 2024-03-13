@@ -6,7 +6,7 @@ ___
 
 **Website Spoiler**
 
-![img](assets\website-spoiler.png)
+![img](assets/website-spoiler.png)
 
 ___
 
