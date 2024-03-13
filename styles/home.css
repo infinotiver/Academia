@@ -720,7 +720,7 @@ a {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(100deg, #0f2a80 15%, #87b2fd 85%);
+  background: linear-gradient(180deg, #040e2ec9 15%, #5873a3b7 85%);
   border-radius: 2rem;
   flex-shrink: 0;
 }
